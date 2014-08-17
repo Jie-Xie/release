@@ -1,0 +1,24 @@
+﻿Build started 8/17/2014 9:56:12 AM.
+     1>Project "C:\src\pyparallel\PCbuild\_elementtree.vcxproj" on node 7 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\_elementtree.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\pyparallel\PCbuild\amd64\_elementtree.pyd" /NOLOGO /LIBPATH:C:\src\pyparallel\PCbuild\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\src\pyparallel\PCbuild\amd64\_elementtree.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /BASE:"0x1D100000" /DYNAMICBASE:NO /IMPLIB:"C:\src\pyparallel\PCbuild\amd64\_elementtree.lib" /MACHINE:X64 /DLL "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\_elementtree.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\xmlparse.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\xmlrole.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\xmltok.obj"
+         C:\src\pyparallel\PCbuild\amd64\python33.lib
+            Creating library C:\src\pyparallel\PCbuild\amd64\_elementtree.lib and object C:\src\pyparallel\PCbuild\amd64\_elementtree.exp
+         Generating code
+         Finished generating code
+         _elementtree.vcxproj -> C:\src\pyparallel\PCbuild\amd64\_elementtree.pyd
+       FinalizeBuildStatus:
+         Deleting file "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\_elementtree.unsuccessfulbuild".
+         Touching "C:\src\pyparallel\PCbuild\x64-temp-Release\_elementtree\_elementtree.lastbuildstate".
+     1>Done Building Project "C:\src\pyparallel\PCbuild\_elementtree.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.40

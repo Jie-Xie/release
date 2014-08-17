@@ -1,0 +1,15 @@
+﻿Build started 8/17/2014 9:20:04 AM.
+     1>Project "C:\src\pyparallel\PCbuild\ssl.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         cd "C:\src\pyparallel\PCbuild\"
+         "C:\src\pyparallel\PCbuild\amd64\python_d.exe" build_ssl.py Release x64 -a
+         
+         Found a working perl at 'C:\Perl64\bin\perl.exe'
+         Executing ssl makefiles: nmake /nologo -f "ms\nt64.mak"
+         Building OpenSSL
+         [50164 refs]
+     1>Done Building Project "C:\src\pyparallel\PCbuild\ssl.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31

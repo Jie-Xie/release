@@ -1,0 +1,59 @@
+﻿Build started 8/15/2014 12:24:24 PM.
+     1>Project "c:\src\pyparallel\PCbuild\bdist_wininst.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\bdist_wininst.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\bdist_wininst.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\PC\bdist_wininst /I..\Include /I..\Modules\zlib /I..\Include /I..\PC /Zi /nologo /W3 /WX- /O1 /Ob1 /Oi /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D NDEBUG /D _WIN32 /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\\" /Fd"c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\vc100.pdb" /Gd /TC /errorReport:prompt ..\PC\bdist_wininst\extract.c ..\PC\bdist_wininst\install.c ..\Modules\zlib\adler32.c ..\Modules\zlib\crc32.c ..\Modules\zlib\inffast.c ..\Modules\zlib\inflate.c ..\Modules\zlib\inftrees.c ..\Modules\zlib\zutil.c
+         extract.c
+     1>..\PC\bdist_wininst\extract.c(269): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         install.c
+     1>..\PC\bdist_wininst\install.c(309): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(898): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1152): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1154): warning C4267: 'function' : conversion from 'size_t' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1502): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1586): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1637): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1663): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1707): warning C4244: '=' : conversion from 'LRESULT' to 'int', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1811): warning C4267: 'function' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\PC\bdist_wininst\install.c(1833): warning C4267: 'function' : conversion from 'size_t' to 'DWORD', possible loss of data
+     1>..\PC\bdist_wininst\install.c(2108): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\PC\bdist_wininst\install.c(2116): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\PC\bdist_wininst\install.c(2123): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\PC\bdist_wininst\install.c(2130): warning C4133: '=' : incompatible types - from 'BOOL (__cdecl *)(HWND,UINT,WPARAM,LPARAM)' to 'DLGPROC'
+     1>..\PC\bdist_wininst\install.c(2539): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         adler32.c
+         crc32.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         zutil.c
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /l"0x0000" /I..\PC /I..\PC\bdist_wininst /I..\Include /I..\PC /I..\Include /nologo /fo"c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\install.res" ..\PC\bdist_wininst\install.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(c:\src\pyparallel\PCbuild\..\lib\distutils\command\bdist_wininst.exe) does not match the Linker's OutputFile property value (c:\src\pyparallel\lib\distutils\command\wininst-10.0-amd64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(bdist_wininst) does not match the Linker's OutputFile property value (wininst-10.0-amd64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"..\lib\distutils\command\wininst-10.0-amd64.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib\distutils\command\ comctl32.lib imagehlp.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST /ManifestFile:"c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\bdist_wininst.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"..\lib\distutils\command\wininst-9.0-amd64.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"..\lib\distutils\command\bdist_wininst.lib" /MACHINE:X64 "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\install.res"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\extract.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\install.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\adler32.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\crc32.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\inffast.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\inflate.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\inftrees.obj"
+         "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\zutil.obj"
+         bdist_wininst.vcxproj -> c:\src\pyparallel\PCbuild\..\lib\distutils\command\bdist_wininst.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\lib\distutils\command\wininst-10.0-amd64.exe;#1" /manifest "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\bdist_wininst.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\bdist_wininst.unsuccessfulbuild".
+         Touching "c:\src\pyparallel\PCbuild\x64-temp-Release\bdist_wininst\bdist_wininst.lastbuildstate".
+     1>Done Building Project "c:\src\pyparallel\PCbuild\bdist_wininst.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66

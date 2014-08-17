@@ -1,0 +1,104 @@
+@import "mixins.scss";
+
+h1, h2, h3, h4, h5, h6 {
+	@include lato;
+	color: #02213d;
+}
+h1, h2, h3 {
+	padding: 15px 0 10px 0;
+}
+h4, h5, h6{
+	padding: 8px 0 5px 0;
+}
+html {
+	height: 100%;
+	body {
+		height: 100%;
+		background: transparent url('/media/img/pattern.png') 0 0 repeat;
+		@include openSans;
+		font-size: 1.3em;
+		.main {
+			min-height: 100%;
+			margin: 0 auto -150px;
+			&:after {
+				content: "";
+  				display: block;
+			}
+			p {
+				font-size: 1.1em;
+				line-height: 1.5em;
+			}
+		}
+		footer, .main:after {
+			height: 150px;
+		}
+	}
+}
+
+header {
+	background-color: #fff;
+	border-bottom: 4px solid #02213d;
+	padding: 30px 0 15px 0;
+	img.header_logo {
+		float: left;
+	}
+	nav.navbar {
+		float: left;
+		width: 68%;
+		margin: 10px 0 0 40px;
+		.nav {
+			> li {
+				display: inline-block;
+				a {
+					font-size: 1.3em;
+					font-weight: 600;
+					padding: 10px 18px; 
+					&.active {
+					
+					}
+				}
+				&:hover {
+					a {
+						color: #61809C;
+						background-color: transparent; 
+						
+					}
+				}
+				&.active {
+					a {
+						color: #61809C;
+						text-decoration: underline;
+					}
+				}
+			}	
+		}
+	}
+}
+section.content {
+	padding: 20px 15px 40px 15px;
+	background: transparent;
+}
+footer {
+	border-top: 4px solid #02213d;
+	background-color: #1D4971;
+	padding: 20px 0 50px 0;
+	font-size: 1.3em;
+	color: #fff;
+	p {
+		text-align: center;
+		text-indent: 25px;
+		margin-bottom: 25px;
+	}
+	.powered-by-continuum {
+		@include noFont;
+		display: block;
+		width: 128px;
+		height: 55px;
+		margin: 0 auto;
+		overflow: hidden;
+		background: transparent url('/media/img/continuum-logo.png') 0 0 repeat;
+		&:hover {
+			background-position: 0 -55px;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+@mixin lato {
+	font-family: "Lato", sans-serif;
+	//font-weight: 300;
+	//font-size: 100%;
+	letter-spacing: 0em;
+}
+@mixin openSans {
+	font-family: "openSans", sans-serif;
+	font-weight: 300;
+	font-size: 100%;
+	letter-spacing: 0em;
+}
+
+@mixin noFont {
+	color: transparent;
+	font-size: 0;
+}

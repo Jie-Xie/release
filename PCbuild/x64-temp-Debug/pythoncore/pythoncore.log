@@ -1,0 +1,218 @@
+﻿Build started 8/17/2014 9:19:58 AM.
+     1>Project "C:\src\pyparallel\PCbuild\pythoncore.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pythoncore.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         Description: Killing any running C:\src\pyparallel\PCbuild\amd64\python_d.exe instances...
+         C:\src\pyparallel\PCbuild\amd64\kill_python_d.exe
+         IF %ERRORLEVEL% NEQ 0 (
+             echo kill_python: warning: could not kill running Pythons, exit code %ERRORLEVEL%
+             exit /b 0
+         )
+         :VCEnd
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\Python /I..\Modules\zlib /I..\Include /I..\PC /Zi /nologo /W3 /WX- /Od /D _USRDLL /D Py_BUILD_CORE /D Py_ENABLE_SHARED /D WIN32 /D _WIN64 /D _M_X64 /D _WIN32 /D _DEBUG /D _WINDLL /GF /Gm- /MDd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /FAcs /Fa"C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\\" /Fo"C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\\" /Fd"C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\vc100.pdb" /FR"C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\\" /Gd /TC /errorReport:prompt ..\Python\frozen.c ..\Python\pyparallel.c /Zm200  
+         frozen.c
+         pyparallel.c
+     1>..\Python\pyparallel.c(6322): warning C4102: 'maybe_close' : unreferenced label
+     1>..\Python\pyparallel.c(8565): warning C4018: '>' : signed/unsigned mismatch
+         Generating Code...
+       ResourceCompile:
+         All outputs are up-to-date.
+       PreLinkEvent:
+         Description: Generate build information...
+         "C:\src\pyparallel\PCbuild\make_buildinfo.exe" Debug "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\"
+         :VCEnd
+         cl.exe -c -D_WIN32 -DUSE_DL_EXPORT -D_WINDOWS -DWIN32 -D_WINDLL -D_DEBUG -MDd ..\Modules\getbuildinfo.c -Fo"C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getbuildinfo.o" -I..\Include -I..\PC
+         Microsoft (R) C/C++ Optimizing Compiler Version 16.00.40219.01 for x64
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         getbuildinfo.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\pyparallel\PCbuild\amd64\python33_d.dll" /NOLOGO /LIBPATH:C:\src\pyparallel\PCbuild\amd64\ "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getbuildinfo.o" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libc /MANIFEST /ManifestFile:"C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\python33_d.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\src\pyparallel\PCbuild\amd64\python33_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1e000000" /DYNAMICBASE:NO /IMPLIB:"C:\src\pyparallel\PCbuild\amd64\python33_d.lib" /MACHINE:X64 /DLL "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\python_nt.res"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_bisectmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecsmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_collectionsmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_csv.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_functoolsmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_heapqmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_json.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_localemodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_lsprof.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_math.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_pickle.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_randommodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_sre.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_struct.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_weakref.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\arraymodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\atexitmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\audioop.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\binascii.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\cmathmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_datetimemodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\errnomodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\faulthandler.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\gcmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\itertoolsmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\main.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mathmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\md5module.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mmapmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\operator.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\parsermodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\posixmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\rotatingtree.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sha1module.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sha256module.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sha512module.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\signalmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\symtablemodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_threadmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\timemodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\xxsubtype.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\zipimport.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\zlibmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\fileio.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytesio.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\stringio.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bufferedio.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\iobase.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\textio.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_iomodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\adler32.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\compress.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\crc32.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\deflate.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\infback.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\inffast.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\inflate.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\inftrees.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\trees.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\uncompr.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\zutil.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_cn.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_hk.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_iso2022.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_jp.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_kr.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_tw.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\multibytecodec.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_winapi.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\abstract.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\accu.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\boolobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytes_methods.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytearrayobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytesobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\capsule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\cellobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\classobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\codeobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\complexobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\descrobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dictobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\enumobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\exceptions.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\fileobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\floatobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\frameobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\funcobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\genobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\iterobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\listobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\longobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\memoryobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\methodobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\moduleobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\namespaceobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\object.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\obmalloc.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\rangeobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\setobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sliceobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\structseq.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\tupleobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\typeobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\unicodectype.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\unicodeobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\weakrefobject.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\acceler.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bitset.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\firstsets.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\grammar.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\grammar1.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\listnode.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\metagrammar.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\myreadline.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\node.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\parser.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\parsetok.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\tokenizer.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\winreg.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\config.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dl_nt.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getpathp.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\msvcrtmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pxlist.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyparallel.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\random.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_warnings.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\asdl.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\ast.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bltinmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\ceval.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\codecs.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\compile.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dynamic_annotations.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dynload_win.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\errors.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\fileutils.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\formatter_unicode.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\frozen.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\future.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getargs.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getcompiler.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getcopyright.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getopt.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getplatform.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getversion.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\graminit.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\import.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\importdl.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\marshal.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\modsupport.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mysnprintf.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mystrtoul.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\peephole.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyarena.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyctype.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyfpe.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pymath.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pytime.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pystate.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pystrcmp.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pystrtod.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dtoa.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\Python-ast.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pythonrun.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\structmember.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\symtable.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sysmodule.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\thread.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\traceback.obj"
+         LINK : C:\src\pyparallel\PCbuild\amd64\python33_d.dll not found or not built by the last incremental link; performing full link
+            Creating library C:\src\pyparallel\PCbuild\amd64\python33_d.lib and object C:\src\pyparallel\PCbuild\amd64\python33_d.exp
+         pythoncore.vcxproj -> C:\src\pyparallel\PCbuild\amd64\python33_d.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\src\pyparallel\PCbuild\amd64\python33_d.dll;#2" /manifest "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\python33_d.dll.intermediate.manifest"
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"C:\src\pyparallel\PCbuild\amd64\python33_d.bsc" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_bisectmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecsmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_collectionsmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_csv.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_functoolsmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_heapqmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_json.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_localemodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_lsprof.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_math.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_pickle.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_randommodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_sre.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_struct.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_weakref.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\arraymodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\atexitmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\audioop.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\binascii.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\cmathmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_datetimemodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\errnomodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\faulthandler.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\gcmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\itertoolsmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\main.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mathmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\md5module.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mmapmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\operator.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\parsermodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\posixmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\rotatingtree.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sha1module.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sha256module.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sha512module.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\signalmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\symtablemodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_threadmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\timemodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\xxsubtype.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\zipimport.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\zlibmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\fileio.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytesio.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\stringio.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bufferedio.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\iobase.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\textio.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_iomodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\adler32.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\compress.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\crc32.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\deflate.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\infback.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\inffast.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\inflate.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\inftrees.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\trees.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\uncompr.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\zutil.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_cn.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_hk.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_iso2022.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_jp.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_kr.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_codecs_tw.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\multibytecodec.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_winapi.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\abstract.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\accu.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\boolobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytes_methods.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytearrayobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bytesobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\capsule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\cellobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\classobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\codeobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\complexobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\descrobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dictobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\enumobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\exceptions.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\fileobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\floatobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\frameobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\funcobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\genobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\iterobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\listobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\longobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\memoryobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\methodobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\moduleobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\namespaceobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\object.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\obmalloc.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\rangeobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\setobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sliceobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\structseq.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\tupleobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\typeobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\unicodectype.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\unicodeobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\weakrefobject.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\acceler.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bitset.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\firstsets.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\grammar.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\grammar1.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\listnode.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\metagrammar.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\myreadline.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\node.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\parser.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\parsetok.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\tokenizer.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\winreg.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\config.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dl_nt.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getpathp.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\msvcrtmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pxlist.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyparallel.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\random.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\_warnings.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\asdl.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\ast.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\bltinmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\ceval.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\codecs.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\compile.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dynamic_annotations.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dynload_win.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\errors.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\fileutils.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\formatter_unicode.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\frozen.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\future.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getargs.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getcompiler.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getcopyright.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getopt.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getplatform.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\getversion.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\graminit.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\import.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\importdl.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\marshal.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\modsupport.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mysnprintf.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\mystrtoul.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\peephole.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyarena.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyctype.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pyfpe.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pymath.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pytime.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pystate.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pystrcmp.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pystrtod.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\dtoa.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\Python-ast.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pythonrun.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\structmember.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\symtable.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\sysmodule.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\thread.sbr" "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\traceback.sbr"
+       FinalizeBuildStatus:
+         Deleting file "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pythoncore.unsuccessfulbuild".
+         Touching "C:\src\pyparallel\PCbuild\x64-temp-Debug\pythoncore\pythoncore.lastbuildstate".
+     1>Done Building Project "C:\src\pyparallel\PCbuild\pythoncore.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.16

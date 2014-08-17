@@ -1,0 +1,29 @@
+﻿Build started 8/15/2014 6:29:21 PM.
+     1>Project "c:\src\pyparallel\PCbuild\python.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\pyparallel.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\Include /I..\PC /Zi /nologo /W3 /WX- /Od /Ob1 /D _CONSOLE /D _DEBUG /D _WIN64 /D _M_X64 /D _WIN32 /D _MBCS /GF /Gm- /MDd /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\\" /Fd"c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\vc100.pdb" /FR"c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\\" /Gd /TC /errorReport:prompt ..\Modules\python.c
+         python.c
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _DEBUG /l"0x0409" /I..\Include /I..\PC /I..\Include /nologo /fo"c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\python_exe.res" ..\PC\python_exe.rc 
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(990,5): warning MSB8012: TargetPath(c:\src\pyparallel\PCbuild\amd64\pyparallel_d.exe) does not match the Linker's OutputFile property value (c:\src\pyparallel\PCbuild\amd64\python_d.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(992,5): warning MSB8012: TargetName(pyparallel_d) does not match the Linker's OutputFile property value (python_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"c:\src\pyparallel\PCbuild\amd64\python_d.exe" /NOLOGO /LIBPATH:c:\src\pyparallel\PCbuild\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\pyparallel_d.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\src\pyparallel\PCbuild\amd64\pyparallel_d.pdb" /SUBSYSTEM:CONSOLE /STACK:"2100000" /TLBID:1 /BASE:"0x1d000000" /DYNAMICBASE:NO /IMPLIB:"c:\src\pyparallel\PCbuild\amd64\pyparallel_d.lib" /MACHINE:X64 "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\python_exe.res"
+         "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\python.obj"
+         c:\src\pyparallel\PCbuild\amd64\python33_d.lib
+         LINK : c:\src\pyparallel\PCbuild\amd64\python_d.exe not found or not built by the last incremental link; performing full link
+         python.vcxproj -> c:\src\pyparallel\PCbuild\amd64\pyparallel_d.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\src\pyparallel\PCbuild\amd64\python_d.exe;#1" /manifest "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\pyparallel_d.exe.intermediate.manifest"
+       BscMake:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\bscmake.exe /nologo /o"c:\src\pyparallel\PCbuild\amd64\pyparallel_d.bsc" "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\python.sbr"
+       FinalizeBuildStatus:
+         Deleting file "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\pyparallel.unsuccessfulbuild".
+         Touching "c:\src\pyparallel\PCbuild\x64-temp-Debug\pyparallel\pyparallel.lastbuildstate".
+     1>Done Building Project "c:\src\pyparallel\PCbuild\python.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95

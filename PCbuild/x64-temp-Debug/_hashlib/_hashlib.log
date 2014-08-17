@@ -1,0 +1,19 @@
+﻿Build started 8/17/2014 9:20:05 AM.
+     1>Project "C:\src\pyparallel\PCbuild\_hashlib.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\src\pyparallel\PCbuild\x64-temp-Debug\_hashlib\_hashlib.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\pyparallel\PCbuild\amd64\_hashlib_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\src\pyparallel\PCbuild\amd64\ ws2_32.lib "..\..\openssl-1.0.1e\out64\libeay32.lib" "..\..\openssl-1.0.1e\out64\ssleay32.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\src\pyparallel\PCbuild\amd64\_hashlib_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\src\pyparallel\PCbuild\amd64\_hashlib_d.lib" /MACHINE:X64 /DLL "C:\src\pyparallel\PCbuild\x64-temp-Debug\_hashlib\_hashopenssl.obj"
+         C:\src\pyparallel\PCbuild\amd64\python33_d.lib
+            Creating library C:\src\pyparallel\PCbuild\amd64\_hashlib_d.lib and object C:\src\pyparallel\PCbuild\amd64\_hashlib_d.exp
+         _hashlib.vcxproj -> C:\src\pyparallel\PCbuild\amd64\_hashlib_d.pyd
+       FinalizeBuildStatus:
+         Deleting file "C:\src\pyparallel\PCbuild\x64-temp-Debug\_hashlib\_hashlib.unsuccessfulbuild".
+         Touching "C:\src\pyparallel\PCbuild\x64-temp-Debug\_hashlib\_hashlib.lastbuildstate".
+     1>Done Building Project "C:\src\pyparallel\PCbuild\_hashlib.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.71

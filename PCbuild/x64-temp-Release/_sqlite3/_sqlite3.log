@@ -1,0 +1,30 @@
+﻿Build started 8/17/2014 9:56:12 AM.
+     1>Project "C:\src\pyparallel\PCbuild\_sqlite3.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\_sqlite3.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\pyparallel\PCbuild\amd64\_sqlite3.pyd" /NOLOGO /LIBPATH:C:\src\pyparallel\PCbuild\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\src\pyparallel\PCbuild\amd64\_sqlite3.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /BASE:"0x1e180000" /DYNAMICBASE:NO /IMPLIB:"C:\src\pyparallel\PCbuild\amd64\_sqlite3.lib" /MACHINE:X64 /DLL "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\cache.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\connection.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\cursor.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\microprotocols.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\module.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\prepare_protocol.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\row.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\statement.obj"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\util.obj"
+         C:\src\pyparallel\PCbuild\amd64\python33.lib
+         C:\src\pyparallel\PCbuild\amd64\sqlite3.lib
+            Creating library C:\src\pyparallel\PCbuild\amd64\_sqlite3.lib and object C:\src\pyparallel\PCbuild\amd64\_sqlite3.exp
+         Generating code
+         Finished generating code
+         _sqlite3.vcxproj -> C:\src\pyparallel\PCbuild\amd64\_sqlite3.pyd
+       FinalizeBuildStatus:
+         Deleting file "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\_sqlite3.unsuccessfulbuild".
+         Touching "C:\src\pyparallel\PCbuild\x64-temp-Release\_sqlite3\_sqlite3.lastbuildstate".
+     1>Done Building Project "C:\src\pyparallel\PCbuild\_sqlite3.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82

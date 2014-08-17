@@ -1,0 +1,19 @@
+﻿Build started 8/17/2014 9:20:03 AM.
+     1>Project "C:\src\pyparallel\PCbuild\_socket.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\src\pyparallel\PCbuild\x64-temp-Debug\_socket\_socket.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\pyparallel\PCbuild\amd64\_socket_d.pyd" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\src\pyparallel\PCbuild\amd64\ ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /DEBUG /PDB:"C:\src\pyparallel\PCbuild\amd64\_socket_d.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /BASE:"0x1e1D0000" /DYNAMICBASE:NO /IMPLIB:"C:\src\pyparallel\PCbuild\amd64\_socket_d.lib" /MACHINE:X64 /DLL "C:\src\pyparallel\PCbuild\x64-temp-Debug\_socket\socketmodule.obj"
+         C:\src\pyparallel\PCbuild\amd64\python33_d.lib
+            Creating library C:\src\pyparallel\PCbuild\amd64\_socket_d.lib and object C:\src\pyparallel\PCbuild\amd64\_socket_d.exp
+         _socket.vcxproj -> C:\src\pyparallel\PCbuild\amd64\_socket_d.pyd
+       FinalizeBuildStatus:
+         Deleting file "C:\src\pyparallel\PCbuild\x64-temp-Debug\_socket\_socket.unsuccessfulbuild".
+         Touching "C:\src\pyparallel\PCbuild\x64-temp-Debug\_socket\_socket.lastbuildstate".
+     1>Done Building Project "C:\src\pyparallel\PCbuild\_socket.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35

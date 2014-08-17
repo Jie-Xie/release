@@ -1,0 +1,28 @@
+﻿Build started 8/15/2014 11:45:41 PM.
+     1>Project "c:\src\pyparallel\PCbuild\make_versioninfo.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include /I..\PC /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Oy- /D _CONSOLE /D NDEBUG /D _WIN32 /D _MBCS /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\\" /Fd"c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\PC\make_versioninfo.c
+         make_versioninfo.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\src\pyparallel\PCbuild\make_versioninfo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:c:\src\pyparallel\PCbuild\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\src\pyparallel\PCbuild\make_versioninfo.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /BASE:"0x1d000000" /DYNAMICBASE:NO /IMPLIB:"c:\src\pyparallel\PCbuild\make_versioninfo.lib" /MACHINE:X86 "c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.obj"
+         make_versioninfo.vcxproj -> c:\src\pyparallel\PCbuild\make_versioninfo.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\src\pyparallel\PCbuild\make_versioninfo.exe;#1" /manifest "c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.exe.intermediate.manifest"
+       CustomBuildStep:
+         Description: Build PC/pythonnt_rc(_d).h
+         cd c:\src\pyparallel\PCbuild\
+         make_versioninfo.exe > ..\PC\pythonnt_rc.h
+         
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.unsuccessfulbuild".
+         Touching "c:\src\pyparallel\PCbuild\Win32-temp-Release\make_versioninfo\make_versioninfo.lastbuildstate".
+     1>Done Building Project "c:\src\pyparallel\PCbuild\make_versioninfo.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44

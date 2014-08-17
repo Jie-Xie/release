@@ -1,0 +1,24 @@
+﻿Build started 8/17/2014 9:56:11 AM.
+     1>Project "C:\src\pyparallel\PCbuild\python.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "C:\src\pyparallel\PCbuild\x64-temp-Release\python\python.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\src\pyparallel\PCbuild\amd64\python.exe" /NOLOGO /LIBPATH:C:\src\pyparallel\PCbuild\amd64\ kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"C:\src\pyparallel\PCbuild\x64-temp-Release\python\python.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\src\pyparallel\PCbuild\amd64\python.pdb" /SUBSYSTEM:CONSOLE /STACK:"2000000" /TLBID:1 /BASE:"0x1d000000" /DYNAMICBASE:NO /IMPLIB:"C:\src\pyparallel\PCbuild\amd64\python.lib" /MACHINE:X64 "C:\src\pyparallel\PCbuild\x64-temp-Release\python\python_exe.res"
+         "C:\src\pyparallel\PCbuild\x64-temp-Release\python\python.obj"
+         C:\src\pyparallel\PCbuild\amd64\python33.lib
+         LINK : C:\src\pyparallel\PCbuild\amd64\python.exe not found or not built by the last incremental link; performing full link
+         python.vcxproj -> C:\src\pyparallel\PCbuild\amd64\python.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\src\pyparallel\PCbuild\amd64\python.exe;#1" /manifest "C:\src\pyparallel\PCbuild\x64-temp-Release\python\python.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "C:\src\pyparallel\PCbuild\x64-temp-Release\python\python.unsuccessfulbuild".
+         Touching "C:\src\pyparallel\PCbuild\x64-temp-Release\python\python.lastbuildstate".
+     1>Done Building Project "C:\src\pyparallel\PCbuild\python.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.62

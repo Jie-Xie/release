@@ -1,0 +1,15 @@
+﻿Build started 8/17/2014 9:56:04 AM.
+     1>Project "C:\src\pyparallel\PCbuild\python3dll.vcxproj" on node 2 (build target(s)).
+     1>Build:
+         cd C:\src\pyparallel\PCbuild\\..\PC
+         nmake /f python3.mak MACHINE=x64 OutDir=C:\src\pyparallel\PCbuild\amd64\
+         
+         Microsoft (R) Program Maintenance Utility Version 10.00.30319.01
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         'C:\src\pyparallel\PCbuild\amd64\python3.dll' is up-to-date
+     1>Done Building Project "C:\src\pyparallel\PCbuild\python3dll.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05
